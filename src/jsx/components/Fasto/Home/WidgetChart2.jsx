@@ -29,7 +29,7 @@ class WidgetChart2 extends React.Component {
 		dataLabels: {
 			enabled: false
         },
-        colors:['#43DC80'],
+        colors:['#003366'],
         legend: {
           show: false,
         },
@@ -40,7 +40,7 @@ class WidgetChart2 extends React.Component {
 			show: true,
 			width: 4,
 			curve:'smooth',
-			colors:['#43DC80'],
+			colors:['#003366'],
 		},
 		states: {
 			normal: {

@@ -19,7 +19,7 @@ class ApexPie4 extends React.Component {
         labels: ["VIP", "Reguler", "Exclusive", "Economic"],
         fill: {
           opacity: 1,
-          colors: ["#363062", "#FFAC30", "#43DC80", "#ffe600"],
+          colors: ["#363062", "#FFAC30", "#003366", "#ffe600"],
         },
         stroke: {
           width: 0,

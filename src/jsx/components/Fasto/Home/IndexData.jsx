@@ -11,12 +11,13 @@ const  IndexData = () =>{
 }
 
 const titleBlog = [
-	{border: <div className="bg-secondary card-border" />, title: '78', subtitle: 'Total Project Handled', icon: <Icon1 />,},
-	{border: <div className="bg-warning card-border" />, title: '214', subtitle: 'Contacts You Have', icon: <Icon2 />,},
-	{border: <div className="bg-primary card-border" />, title: '93', subtitle: 'Total Unfinished Task', icon: <Icon3 />,},
-	{border: <div className="bg-info card-border" />, title: '12', subtitle: 'Unread Messages', icon: <Icon4 />,},
+	{border: <div className="bg-secondary card-border" />, title: '3444', subtitle: 'Total Customers', icon: <Icon1 />,},
+	{border: <div className="bg-warning card-border" />, title: '23', subtitle: 'Flagged Cases', icon: <Icon2 />,},
+	{border: <div className="bg-primary card-border" />, title: '223', subtitle: 'Total Transaction', icon: <Icon3 />,},
+	{border: <div className="bg-info card-border" />, title: '500', subtitle: 'Recent Activity', icon: <Icon4 />,},
 ];
 const ProjectBlog = ({titleMenu}) =>{
+
 	return(
 		<>
 			<span className="fs-16 text-primary mb-2 d-block sub-title font-w500">Yoast Esac</span>

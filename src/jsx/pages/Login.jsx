@@ -7,6 +7,7 @@ import {
 } from '../../store/actions/AuthActions';
 // image
 import logo2 from "../../assets/images/logo-full-white.png";
+import logoarc from "../../assets/images/auth-side-bg.png";
 import login from "../../assets/images/login-bg.jpg";
 
 function Login(props) {
@@ -40,25 +41,9 @@ function Login(props) {
 
   return (
 		<div className="login-wrapper">
-			<div className="login-aside-left" style={{backgroundImage:"url("+ login +")"}}>
-				<Link to="/" className="login-logo">
-					<img src={logo2} alt="" />
-				  </Link>
-				<div className="login-description">
-					<h2 className="text-white mb-4">Check the Status</h2>
-					<p className="fs-12">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-					<ul className="social-icons mt-4">
-						<li><Link to={"#"}><i className="fab fa-facebook-f"></i></Link></li>
-						<li><Link to={"#"}><i className="fab fa-twitter"></i></Link></li>
-						<li><Link to={"#"}><i className="fab fa-linkedin-in"></i></Link></li>
-					</ul>
-					<div className="mt-5">
-						<Link to={"#"} className="text-white me-4">Privacy Policy</Link>
-						<Link to={"#"} className="text-white me-4">Contact</Link>
-						<Link to={"#"} className="text-white">© {year} DexignZone</Link>
-					</div>
+			<div className="login-aside-left" style={{backgroundImage:"url("+ login +")", }}>
+				
 				</div>
-			</div>
 			<div className="login-aside-right">
 				<div className="row m-0 justify-content-center h-100 align-items-center">
 				  <div className="col-xl-6 col-xxl-8">
@@ -67,9 +52,9 @@ function Login(props) {
 						<div className="col-xl-12">
 						  <div className="auth-form">
 							<div className=" mb-3">
-							  <h2 className="text-primary">Welcome to Fasto</h2>
+							  <h2 className="text-primary" style={{color: "white"}}>Welcome back!</h2>
 							</div>
-							<h4 className=" mb-4 ">Sign in by entering information below</h4>
+							<h4 className=" mb-4 ">Please enter your credentials to sign in!</h4>
                             {props.errorMessage && (
                                 <div className='text-danger'>
                                     {props.errorMessage}

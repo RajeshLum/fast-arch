@@ -59,7 +59,7 @@ class ApexBar3 extends React.Component {
           },
         },
         fill: {
-          colors: ["#43DC80", "#D45BFF"],
+          colors: ["#003366", "#D45BFF"],
           opacity: 1,
         },
         tooltip: {

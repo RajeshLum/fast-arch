@@ -26,7 +26,7 @@ class WidgetChart1 extends React.Component {
         dataLabels: {
           enabled: false
         },
-        colors:['#43DC80'],
+        colors:['#003366'],
         legend: {
           show: false,
         },

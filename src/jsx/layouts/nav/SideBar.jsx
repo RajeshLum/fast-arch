@@ -94,7 +94,6 @@ const SideBar = () => {
           : ""
       }`}
     >
-	      <Link to={"#"} className="add-project-sidebar btn btn-primary" onClick={()=>setNewProject(true)}>+ New Project</Link>
         <PerfectScrollbar className="deznav-scroll">
           <ul className="metismenu" id="menu">              
               {MenuList.map((data, index)=>{
@@ -170,12 +169,12 @@ const SideBar = () => {
               })}          
           </ul>	
           <div className="copyright">
-            <p><strong>Fasto React Admin Dashboard</strong> © {d.getFullYear()} All Rights Reserved</p>
+            {/* <p><strong>AracAngel Admin Dashboard</strong> © {d.getFullYear()} All Rights Reserved</p>
             <p className="fs-12">Made with 
               <span className={`heart ${ btnHeart ? 'heart-blast' : ''}`}
                 onClick={()=>setBtnHeart(!btnHeart)}
               ></span> 
-              by DexignZone</p>
+              by DexignZone</p> */}
           </div>
         </PerfectScrollbar>      	
         <Modal className="modal fade" id="addProjectSidebar" show={newProject} onHide={setNewProject} centered>       

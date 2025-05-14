@@ -29,7 +29,7 @@ class ApexBar2 extends React.Component {
             },
           },
         },
-        colors: ["#43DC80"],
+        colors: ["#003366"],
         legend: {
           show: false,
           position: "top",

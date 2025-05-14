@@ -40,7 +40,7 @@ class ChartTimeline extends React.Component {
           distributed: true,
         },
 
-        colors:['#43DC80'],
+        colors:['#003366'],
         grid: {
           show: false,
         },

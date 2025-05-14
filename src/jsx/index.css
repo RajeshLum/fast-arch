@@ -259,7 +259,7 @@ a:focus {
 
 .dd .nestable-item-name {
   color: #fff;
-  background: #43DC80;
+  background: #003366;
   display: block;
   height: 35px;
   margin: 8px 0;
@@ -548,7 +548,7 @@ button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--r
 }
 .calendar__head {
   position: relative;
-  background: #43dc80;
+  background: #003366;
   padding: 10px 6px;
 }
 .calendar__head--title {

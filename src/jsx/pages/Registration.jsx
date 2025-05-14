@@ -48,23 +48,7 @@ function Register(props) {
 		<div className="login-wrapper">
             
 			<div className="login-aside-left" style={{backgroundImage:"url("+ login +")", }}>
-				<Link to="/" className="login-logo">
-					<img src={logo2} alt="" />
-				  </Link>
-				<div className="login-description">
-					<h2 className="text-white mb-4">Check the Status</h2>
-					<p className="fs-12">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-					<ul className="social-icons mt-4">
-						<li><Link to={"#"}><i className="fab fa-facebook-f"></i></Link></li>
-						<li><Link to={"#"}><i className="fab fa-twitter"></i></Link></li>
-						<li><Link to={"#"}><i className="fab fa-linkedin-in"></i></Link></li>
-					</ul>
-					<div className="mt-5">
-						<Link to={"#"} className="text-white me-4">Privacy Policy</Link>
-						<Link to={"#"} className="text-white me-4">Contact</Link>
-						<Link to={"#"} className="text-white">© { year} DexignZone</Link>
-					</div>
-				</div>
+			
 			</div>
 			
 			<div className="login-aside-right">	

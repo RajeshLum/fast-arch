@@ -75,6 +75,15 @@ import Lightgallery from './components/PluginsMenu/Lightgallery/Lightgallery'
 
 /// Widget
 import Widget from './pages/Widget'
+import CustomerRegistration from './pages/arc/CustomerRegistration'
+import DocumentVerification from './pages/arc/DocumentVerification'
+import CustomerProfile from './pages/arc/CustomerProfile'
+import SearchFilter from './pages/arc/SearchFilter'
+import FlaggingApproval from './pages/arc/FlaggingApproval'
+import AdditionalResearch from './pages/arc/AdditionalResearch'
+import BillingSubscription from './pages/arc/BillingSubscription'
+import Settings from './pages/arc/Settings'
+import AdminPanel from './pages/arc/AdminPanel'
 
 /// Table
 import BootstrapTable from './components/table/BootstrapTable'
@@ -163,6 +172,15 @@ const Markup = () => {
 
     /// Widget
     { url: 'widget-basic', component: <Widget/> },
+    { url: 'dashboard/customer-registration', component: <CustomerRegistration/> },
+    { url: 'dashboard/document-verification', component: <DocumentVerification/> },
+    { url: 'dashboard/customer-profile', component: <CustomerProfile/> },
+    { url: 'dashboard/search-filter', component: <SearchFilter/> },
+    { url: 'dashboard/flagging-approval', component: <FlaggingApproval/> },
+    { url: 'dashboard/additional-research', component: <AdditionalResearch/> },
+    { url: 'dashboard/billing-subscription', component: <BillingSubscription/> },
+    { url: 'dashboard/settings', component: <Settings/> },
+    { url: 'dashboard/admin-panel', component: <AdminPanel/> },
 
     /// Shop
     { url: 'ecom-product-grid', component: <ProductGrid/> },
